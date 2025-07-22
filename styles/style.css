@@ -196,7 +196,21 @@ main{
 .fratured-image{
     max-width: 100%;
 }
-
+/* footer styles */
+footer{
+    background-color: #FFF4E7;
+    margin-top: 130px;
+    text-align: center;
+    border-radius: 8px;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.footer-taitle{
+    font-size: 1.25rem;
+    padding: 38px ;
+    
+}
 
 
 /* responsive media query */
@@ -204,10 +218,14 @@ main{
     .navbar, 
     .nav-links, 
     .teams,
-    .features
+    .features,
+    footer
     {
         flex-direction: column;
         
+    }
+    footer{
+        justify-items: center;
     }
     .team-image,
      .facts-container,
